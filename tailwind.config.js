@@ -5,11 +5,11 @@ module.exports = {
     extend: {
       colors: {
         'light-body': '#F9F7F7',
-        'light-btn' : '#112D4E',
-        'light-bg-btn': '#DBE2EF',
+        'light-text' : '#112D4E',
+        'light-btn': '#DBE2EF',
         'dark-body': '#181C14',
         'dark-text': '#ECDFCC',
-        'dark-btn': '#3C3D37'
+        'dark-btn': '#3C3D37',
 
         
       }
