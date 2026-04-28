@@ -1,0 +1,35 @@
+Create separate routes for Projects, Pricing, and Contact pages.
+
+Requirements:
+
+1. Add navigation links for:
+   - Projects
+   - Pricing
+   - Contact
+
+2. Each link should open its own dedicated route:
+   - /projects
+   - /pricing
+   - /contact
+
+3. Create separate page components/files for each route.
+
+4. Each page should display a simple heading for now:
+   - Projects page → "Projects"
+   - Pricing page → "Pricing"
+   - Contact page → "Contact"
+
+5. Ensure routing works properly using the existing routing setup if not make it and in the project.
+
+Constraints:
+
+- Do not change the existing homepage layout.
+- Do not modify unrelated components.
+- Keep the current navbar design unchanged.
+- Only connect the navbar links to their respective routes.
+
+Use the existing project structure and follow the same code style already used in the project.
+
+git commit -m "Add routes for projects pricing and contact pages"
+
+
