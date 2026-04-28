@@ -33,3 +33,121 @@ Use the existing project structure and follow the same code style already used i
 git commit -m "Add routes for projects pricing and contact pages"
 
 
+----------------------
+
+Update the portfolio navbar and routing structure.
+
+Requirements:
+
+1. Keep the Resume link exactly as it is (do not change its current functionality or destination).
+
+2. Update the navbar links to only include:
+   - Home
+   - Projects
+   - Tech Stack
+   - Contact
+   - Resume
+
+3. Rename and connect routes as follows:
+   - Home → /
+   - Projects → /projects
+   - Tech Stack → /tech-stack
+   - Contact → /contact
+
+4. Home should be the main landing page on the "/" route.
+
+5. The navbar must be visible on every route/page:
+   - Home
+   - Projects
+   - Tech Stack
+   - Contact
+
+6. Keep the existing night mode (dark mode) button in the navbar and ensure it works on every route.
+
+7. Remove all back buttons from every route/page.
+   Navigation between pages should happen only through navbar links.
+
+8. Create/update separate page components for:
+   - Projects
+   - Tech Stack
+   - Contact
+
+9. Each page should have clean basic content for now:
+   - Projects page → showcase projects section
+   - Tech Stack page → technologies and skills section
+   - Contact page → contact information section
+
+Constraints:
+
+- Do not change the existing Resume link behavior.
+- Do not break the current homepage design.
+- Keep the current navbar styling/design mostly unchanged.
+- Do not modify unrelated components.
+- Use the existing project structure and code style.
+
+Goal:
+The portfolio should feel clean, professional, and easy to navigate using only the navbar.
+
+git commit -m "Update navbar routes and remove back button navigation"
+
+
+
+------------------
+
+
+Fix navbar consistency across all pages.
+
+Current Issue:
+
+When navigating between Home (@index.html) and other pages like:
+- @project.html
+- @tech-stack.html
+- @contact.html
+
+there is a visible shift in navbar layout such as:
+- font size changes
+- text position changes
+- spacing differences
+- alignment mismatch
+- navbar height inconsistency
+
+This makes the UI feel unstable.
+
+Requirements:
+
+1. Make the navbar look exactly the same on every page:
+   - same font size
+   - same font weight
+   - same spacing
+   - same alignment
+   - same navbar height
+   - same padding
+   - same link positioning
+   - same dark mode button placement
+
+2. Ensure there is zero visual shift when moving between routes.
+
+3. Reuse the exact same navbar structure and classes from @index.html
+as the source of truth for:
+- @project.html
+- @tech-stack.html
+- @contact.html
+
+4. Do not create different navbar versions for different pages.
+
+5. Keep active page navigation clean, but without changing layout size.
+
+6. Maintain responsive behavior if already present.
+
+Constraints:
+
+- Do not redesign the navbar
+- Do not change colors unnecessarily
+- Do not modify homepage hero section
+- Only fix consistency and seamless navigation experience
+
+Goal:
+
+Navigation should feel smooth and professional, with the navbar appearing fixed and identical across every page.
+
+git commit -m "Fix navbar consistency across all pages"
